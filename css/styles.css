@@ -14,7 +14,9 @@ body {
 
 p {
 	font-size: .95em;
-	margin-bottom: 1.8em;
+  margin-bottom: 1.8em;
+
+  
 }
 
 h2,
@@ -25,7 +27,7 @@ a {
 
 h2,
 h3 {
-	margin-top: 0;
+	margin-top: 10px;
 }
 
 a {
@@ -33,8 +35,9 @@ a {
 }
 
 img {
-	max-width: 80%;
+	max-width: 90%;
 }
+
 ol, 
 ul {
  margin: 0;
@@ -79,50 +82,76 @@ ul {
 .main-nav a:hover {
 	color: #093a58;
 }
-
+.tagline {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+.portfolio {
+	margin-top: 40px;
+}
 
 /* ---- Layout Containers ---- */
 
 .main-header {
 	padding-top: .5em;
 	padding-bottom: .5em;
-	background-color: rgb(177, 213, 230);
+	background-color: rgb(102, 133, 173);
+
 }
 
 .intro,
 .main-footer {
 	text-align: center;
+
 }
 
 .intro {
 	
-	background: white;
+  background: #fafaf0 ;
   padding: 0.5em 0;
-  margin-top: 20px;
+  
 
-	text-align: center;
-
+	
 }
-.container {
+.container{
   text-align: center;
 }
 
+.contact {
+	text-align: center;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #fafaf0;
+
+}
 .col {
 	padding-right: 1em;
 	padding-left: 1em;
 }
 
-.main-footer {
+.footer {
 	background: #d9e4ea;
 	padding: 2em 0;
-	margin-top: 30px;
+ 
+  display: inline;
+}
+.back2top {
+  padding-left: 80%;
 }
 
 /* ---- Page Elements ---- */
 
 .profile-image {
-	width: 260px;
+	width: 220px;
+	margin-top: 25px;
 }
+.project{
+ margin-top: 50px;
+}
+
+
 
 
 /* ================================= 
@@ -169,23 +198,25 @@ ul {
 
 }
 
-@media (min-width: 1025px) {
+@media (min-width: 769px) {
 	
 	.container {
-		width: 80%;
-		max-width: 1150px;
+		width: 90%;
+    max-width: 1150px;
+    
 	}
 
-	.primary {
-		width: 40%;
+	.profile-image {
+    width: 50%;
+    float: right;
+    
 	}
 
-	.secondary,
-	.tertiary {
-		width: 30%;
+	.tagline {
+    width: 50%;
+    float: left;
 	}
 
-}
 
 
 
