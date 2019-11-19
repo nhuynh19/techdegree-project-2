@@ -195,30 +195,40 @@ ul {
 		width: 60%;
 		float: left;
 		margin-left: 5%;
-	
-		text-align: left;
+	 text-align: left;
 		font-size: 1.2em;
+		padding-right: 5%;
 	}
 	.intro {
 		padding-bottom: 50px;
 	}
-	
+
+	.project {
+		float: left;
+		
+	}
 	
 	.portfolio-1,
+	.portfolio-2,
 	.portfolio-3,
-	.portfolio-5 {
-		width: 50%;
-		float: left;
-		margin: 0 auto;
+	.portfolio-4,
+	.portfolio-5,
+	.portfolio-6 {
+			width: 50%;
+			margin: 0 auto;
+	}
+	.project p {
+		font-size: 1.125em;
+		padding-left: 7%;
+		padding-right: 7%;
+		text-align: center;
 	}
 
-	.portfolio-2,
-	.portfolio-4,
-	.portfolio-6 {
-		width: 48%;
-		float: right;
-		margin: 0 auto;
+	.contact p {
+		padding: 0 20%;
 	}
+
+
 	.bottom-nav li {
 		display: inline-block; 
 		padding-left: 10px;
@@ -294,6 +304,7 @@ ul {
     width: 50%;
     float: left;
 	}
+}
 
 
 
@@ -301,7 +312,7 @@ ul {
 
 
 
-	*/
+	
 
 
 
