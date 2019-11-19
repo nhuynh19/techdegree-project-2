@@ -81,6 +81,7 @@ ul {
 
 .main-nav a:hover {
 	color: #093a58;
+	
 }
 .tagline {
 	margin-left: 1em;
@@ -98,6 +99,10 @@ ul {
 	background-color: rgb(102, 133, 173);
 
 }
+.profile-image {
+	width: 220px;
+	margin-top: 25px;
+}
 
 .intro,
 .main-footer {
@@ -107,20 +112,19 @@ ul {
 
 .intro {
 	
-  background: #fafaf0 ;
-  padding: 0.5em 0;
+  	background: #fafaf0 ;
+  	padding: 0.5em 0;
   
 
 	
 }
-.container{
-  text-align: center;
-}
+.container {
+  	text-align: center;
+}	
 
 .contact {
 	text-align: center;
 	margin-top: 2em;
-	margin-bottom: 2em;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	background-color: #fafaf0;
@@ -133,24 +137,35 @@ ul {
 
 .footer {
 	background: #d9e4ea;
-	padding: 2em 0;
+	padding-top: 5%;
+	margin-top: 5%;
+ 	position: relative;
  
-  display: inline;
+}
+
+.name-footer {
+	float: left;
+	margin-left: 5%;
 }
 .back2top {
-  padding-left: 80%;
+  	float: right;
+  	margin-right: 5%;
 }
-
+.bottom-nav {
+	display: none;
+}
 /* ---- Page Elements ---- */
 
-.profile-image {
-	width: 220px;
-	margin-top: 25px;
-}
+
 .project{
- margin-top: 50px;
+	margin-top: 50px;
 }
 
+.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
 
 
 
