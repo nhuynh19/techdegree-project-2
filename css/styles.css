@@ -35,7 +35,11 @@ img {
 	max-width: 90%;
 }
 
-ol, 
+li {
+	display: block;
+	margin: 0 auto;
+	
+}
 ul {
  margin: 0;
  padding: 0;
@@ -50,7 +54,7 @@ ul {
 
 .name {
 	font-size: 1.25em;
-	margin: 0;
+	margin-bottom: 1em;
 }
 
 .main-nav {
@@ -91,6 +95,7 @@ ul {
 /* ---- Layout Containers ---- */
 
 .main-header {
+	
 	padding-top: .5em;
 	padding-bottom: .5em;
 	background-color: rgb(102, 133, 173);
@@ -122,9 +127,12 @@ ul {
 .contact {
 	text-align: center;
 	margin-top: 2em;
+	margin-left:0.1em;
+	margin-right: 0.1em;
 	padding-top: 50px;
 	padding-bottom: 50px;
 	background-color: #fafaf0;
+	border-bottom: 0.5px solid rgb(214, 208, 208);
 
 }
 .col {
@@ -132,8 +140,8 @@ ul {
 	padding-left: 1em;
 }
 
-.footer {
-	background: #d9e4ea;
+.main-footer {
+	
 	padding-top: 5%;
 	margin-top: 5%;
  position: relative;
@@ -156,6 +164,8 @@ ul {
 
 .project{
 	margin-top: 50px;
+	margin-left: 0.1em;
+	margin-right: 0.1em;
 }
 
 .clearfix::after {
@@ -170,14 +180,70 @@ ul {
   Media Queries
 ==================================== */
 
-@media (min-width: 380px) {
+@media (min-width: 768px) {
+	.containter {
+		width: 100%;
 
-	.container {
-		width: 90%;
+	}
+	.profile-image {
+		width: 30%;
+		float: right;
+		margin-right: 5%;
+		
+	}
+	.line {
+		width: 60%;
+		float: left;
+		margin-left: 5%;
+	
+		text-align: left;
+		font-size: 1.2em;
+	}
+	.intro {
+		padding-bottom: 50px;
+	}
+	
+	
+	.portfolio-1,
+	.portfolio-3,
+	.portfolio-5 {
+		width: 50%;
+		float: left;
 		margin: 0 auto;
 	}
 
-	.name,
+	.portfolio-2,
+	.portfolio-4,
+	.portfolio-6 {
+		width: 48%;
+		float: right;
+		margin: 0 auto;
+	}
+	.bottom-nav li {
+		display: inline-block; 
+		padding-left: 10px;
+		}
+	
+	.back2top {
+		display: none;
+	}
+
+	.name-footer {
+		width: 50%;
+		float: left;
+		margin: 0;
+		text-align: left;
+		padding-left: 2%;
+		padding-bottom: 2%;
+	}
+	.bottom-nav {
+		display: block;
+		width: 50%;
+		float: right;
+		margin: 0;
+}
+	
+/*	.name,
 	.col {
 		float: left;
 	}
@@ -210,7 +276,7 @@ ul {
 
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1024px) {
 	
 	.container {
 		width: 90%;
@@ -235,7 +301,7 @@ ul {
 
 
 
-
+	*/
 
 
 
