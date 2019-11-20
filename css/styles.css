@@ -34,7 +34,7 @@ h3 {
 	border-bottom: 1px solid #ebecec;
 	margin-left: 1em;
 	margin-right: 1em;
-	background-color: 
+
 }
 
 .nav a:hover {
@@ -110,11 +110,28 @@ h3 {
 h4 {
 	font-size: 1.1em;
 }
-.contact {
+
+/* --------------------------
+  Skill Styles
+--------------------------- */
+.skill {
 	text-align: center;
 	margin-top: 2em;
-	margin-left:0.1em;
-	margin-right: 0.1em;
+	padding: 10px 15px 20px 15px;
+	background-color: #b2c5ce;
+}
+.skills li {
+	margin-top: 8px;
+	font-style: italic;
+}
+
+/* --------------------------
+  Contact Styles
+--------------------------- */
+.contact {
+	text-align: center;
+
+	
 	padding: 10px 15px 20px 15px;
 	background-color: #fafaf0;
 	border-bottom: 0.5px solid rgb(214, 208, 208);
@@ -220,6 +237,21 @@ h4 {
 		padding-right: 7%;
 		text-align: center;
 	}
+	.skill {
+		padding-bottom: 3em;
+	}
+	.skills li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #ff9904;
+  color: white;
+  padding: 5px 20px;
+  margin: 5px;
+}
+.skills li:nth-child(odd) {
+	background: #0399ff;
+}
+
 
 	.contact p {
 		padding: 0 20%;
