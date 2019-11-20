@@ -243,6 +243,7 @@ h4 {
 		padding-right: 10px;
 	}
 }
+
 @media (min-width: 1024px) {
 	.main-header {
 		flex-direction: row;
@@ -250,14 +251,49 @@ h4 {
 	}
 	.name {
 		margin-right: auto;
-		margin-left: 0.65em;
+		margin-left: 0.8em;
 	}
 	.nav {
 		margin-top: 0;
 		align-self: center;
 	}
 	.nav li {
-		margin-left: .65em;
-		margin-right: .65em;
+		margin-left: 0.8em;
+		margin-right: 0.8em;
 	}
+
+	.intro .line {
+		font-size: 1.25em;
+	}
+	.portfolio-1,
+	.portfolio-2,
+	.portfolio-3,
+	.portfolio-4,
+	.portfolio-5,
+	.portfolio-6 {
+			width: 33.33%;
+			margin:0 auto;
+	}
+
+	.project {
+		margin-bottom: 40px;
+	}
+
+	.project p {
+		text-align: center;
+		font-size: 15px;
+		margin-left: 0.18em;
+		margin-right: 0.18em;
+	}
+	.main-footer {
+		margin-left: 0.8em;
+	}
+	.bottom-nav {
+		display: block;
+		width: 40%;
+		float: right;
+		margin: 0;
+		padding-right: 0.8em;
+		}
+
 }
