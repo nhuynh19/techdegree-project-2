@@ -1,12 +1,13 @@
 /* --------------------------
   Main Styles
---------------------------- */
+-------------------------
+-- */
 * {
 	box-sizing: border-box;
 }
 
 .main-header,
-.nav {
+.top-nav {
 	display: flex;
 	flex-direction: column;
 }
@@ -24,7 +25,7 @@ h3 {
 	color:  rgb(226, 71, 97);
 }
 
-.nav a {
+.top-nav a {
 	display: block;
 	color: #476481;
 	font-size: 1.125em;
@@ -37,7 +38,7 @@ h3 {
 
 }
 
-.nav a:hover {
+.top-nav a:hover {
 	color: #0b0b0b;
 	border-bottom-color: #5b5c9c;
 }
@@ -64,7 +65,7 @@ body {
   color: #797e83;
   font-size: 16px;
 		margin: 0;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Muli", "Roboto", Helvetica, Arial, sans-serif;
   line-height: 1.5; 
 }
 
@@ -186,12 +187,12 @@ h4 {
 		justify-content: flex-end;
 	}
 
-	.nav {
-		margin-top: 0.5em;
+	.top-nav {
+		
 		flex-direction: row;
-		justify-content: space-between;
+		justify-content: center;
 	}
-	.nav a {
+	.top-nav a {
 		border-bottom-color: transparent;
 	}
 
@@ -285,11 +286,11 @@ h4 {
 		margin-right: auto;
 		margin-left: 0.8em;
 	}
-	.nav {
-		margin-top: 0;
+	.top-nav {
+		margin-top: 50px;
 		align-self: center;
 	}
-	.nav li {
+	.top-nav li {
 		margin-left: 0.8em;
 		margin-right: 0.8em;
 	}
